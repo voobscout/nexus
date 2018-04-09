@@ -1,9 +1,9 @@
 FROM alpine:3.6
 
-LABEL maintainer="cavemandaveman <cavemandaveman@protonmail.com>"
+LABEL maintainer="voobscout <voobscout+dockerfiles@gmail.com>"
 
 ENV SONATYPE_DIR="/opt/sonatype"
-ENV NEXUS_VERSION="3.9.0-01" \
+ENV NEXUS_VERSION="3.10.0" \
     NEXUS_HOME="${SONATYPE_DIR}/nexus" \
     NEXUS_DATA="/nexus-data" \
     SONATYPE_WORK=${SONATYPE_DIR}/sonatype-work \
