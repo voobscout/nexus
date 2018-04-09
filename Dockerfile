@@ -3,7 +3,7 @@ FROM alpine:3.6
 LABEL maintainer="voobscout <voobscout+dockerfiles@gmail.com>"
 
 ENV SONATYPE_DIR="/opt/sonatype"
-ENV NEXUS_VERSION="3.10.0" \
+ENV NEXUS_VERSION="3.10.0-04" \
     NEXUS_HOME="${SONATYPE_DIR}/nexus" \
     NEXUS_DATA="/nexus-data" \
     SONATYPE_WORK=${SONATYPE_DIR}/sonatype-work \
